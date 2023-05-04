@@ -1,0 +1,11 @@
+# 👩🏻‍⚖️EQUALS A Real-world Dataset for Legal Question Answering via Reading Chinese Laws
+
+Introducing EQUALS, an open-source project that aims to provide a high-quality legal question answering (LQA) dataset for the natural language processing (NLP) community. Our well-annotated real-world dataset includes 6,914 {question, article, answer} triplets, as well as a pool of law articles covering 10 different collections of Chinese Laws. The questions and corresponding answers in EQUALS are collected from a professional law consultation forum, and the exact span of a law article is annotated by senior law students to ensure quality and professionalism. We also propose a QA framework that includes a law article retrieval module and a machine reading comprehension module for extracting accurate answers from the law article. We conducted thorough experiments with representative baselines on EQUALS and found that it presents a challenging question answering task. We believe that EQUALS, as the largest real-world LQA dataset, will significantly promote the research of LQA tasks and contribute to the development of practical data-driven LQA agents. The project is open-source, ensuring that the dataset and framework are available to the wider community.
+
+![摘要大图](https://user-images.githubusercontent.com/33241971/236109944-87fb2018-6edc-4e7c-abc9-e5d59db6b58b.png)
+
+##  An overview of our question answering system
+Inspired by OpenQA task, we have developed an open-source project to simulate real-world legal question answering tasks in the EQUALS dataset. The project involves understanding user queries, identifying relevant articles of laws, and answering questions through Machine Reading Comprehension (MRC) models. This process is divided into two parts: "Retrieval of Relevant Law Article" and "Machine Reading Comprehension Task". Our goal is to facilitate diverse and innovative use of our data by researchers in the field, while also providing an open-source solution for legal question answering that can offer more efficient and accurate legal consultation services to users. Through promoting collaboration and development in this area, we hope to advance the field of legal technology.
+![问答流程](https://user-images.githubusercontent.com/33241971/236110847-3cd578d2-5a8a-4b02-a574-6a8f13daadc4.png)
+
+
